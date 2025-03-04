@@ -20,7 +20,7 @@ body {
   width: 97%;
   height: 50px;
   text-align: right;
-  font-size: 2em;
+  font-size: 1.9em;
   margin-bottom: 10px;
   background-color: white;
   border: none;
@@ -57,13 +57,13 @@ button {
   font-size: 1.2em;
   border: none;
   cursor: pointer;
-  background-color: rgb(235, 229, 229);
+  background-color: rgb(254, 254, 254);
   border-radius: 5px;
   margin: 5px;
 }
 button:active {
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .clear, .back{
@@ -76,5 +76,8 @@ button:active {
     color: white;
 }
 .point{
+  font-weight: 1000;
+}
+.back{
   font-weight: 1000;
 }
