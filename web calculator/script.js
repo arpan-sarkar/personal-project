@@ -1,4 +1,4 @@
-document.querySelector('.leftCol').style.transform = 'translateY(-61px)';
+// document.querySelector('.leftCol').style.transform = 'translateX(px)';
 document.querySelector(".leftCol").style.width = "260px";
 document.querySelector(".number").style.transform = "translateY(-50px)";
 document.querySelector(".number").style.width = "200px";
