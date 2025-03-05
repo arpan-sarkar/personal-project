@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for everyone</title>
 </head>
 <body>
     <div class="container flex bg-black">
-        <div class="left border">
+        <div class="left">
             <div class="logo"><img src="logo.svg" alt="logo" class="invert"></div>
             <div class="home bg-grey rounded m-1 p-1">
                 <ul>
@@ -34,7 +34,7 @@
             </div>
            
         </div>
-        <div class="right border bg-grey">
+        <div class="right bg-grey rounded">
             <div class="header">
                 <div class="nav">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,8 +49,23 @@
                     </svg>
                 </div>
                 <div class="button">
-                    <button>Signup</button>
-                    <button>Login</button>
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <div class="card ">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="https://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" fill="black"/>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
                 </div>
             </div>
         </div>
