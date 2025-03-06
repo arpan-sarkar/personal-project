@@ -19,10 +19,12 @@ body{
 .left{
     width: 25vw;
     padding: 10px;
+    min-height: 80%;
 }
 .right{
     width: 75vw;
     margin: 16px 0;
+    position: relative;
 }
 
 
@@ -146,6 +148,65 @@ body{
     font-weight: bold;
     font-size: 17px;
 }
+.playbar{
+    position:fixed;
+    bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    padding: 12px;
+}
+
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.songList{
+    margin-left: -80px;
+    padding: 0 42px;
+    height: 500px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.songList ul{
+    padding: 0 42px;
+}
+.songList ul li{
+    list-style-type: decimal;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+    padding: 12px 0;
+    border: 1px solid white;
+    margin: 12px 0;
+    padding: 13px;
+    border-radius: 5px;
+    width: 300px;
+}
+.songList .info{
+    font-size: 14px;
+    width: 344px;
+}
+.playNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playNow img{
+    width: 20px;
+}
+.playNow span{
+    font-size: 10px;
+    width: 64px;
+}
+
+.info div{
+    font-size: 10px;
+}
+
+
 
 
 
